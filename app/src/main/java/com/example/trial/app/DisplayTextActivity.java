@@ -16,6 +16,8 @@ import java.util.Date;
  */
 public class DisplayTextActivity extends ActionBarActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +28,6 @@ public class DisplayTextActivity extends ActionBarActivity {
     public void go_back(View view) {
 
         Intent intent = new Intent(this, MainActivity.class);
-
         this.startActivity(intent);
     }
 

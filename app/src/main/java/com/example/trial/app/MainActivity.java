@@ -14,10 +14,9 @@ import java.util.Date;
 
 public class MainActivity extends ActionBarActivity {
 
-    //private Button push_me = (Button) findViewById(R.id.push_me);
-    //private EditText paste_me = (EditText) findViewById(R.id.paste_me);
-    //public View show_me = (TextView) findViewById(R.id.show_me);
-    //private Button clear_me = (Button) findViewById(R.id.clear_me);
+    //public EditText edit_text = (EditText) findViewById(R.id.edit_text);
+    //TextView text_view = (TextView) findViewById(R.id.text_view);
+    //public Intent intent = new Intent(this, DisplayTextActivity.class);
 
     public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
 
@@ -25,34 +24,36 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.activity_main);
-        //show_time();
+
     }
 
 
-public void do_job(View view) {
+public void onClick(View view) {
 
-    EditText paste_me = (EditText) findViewById(R.id.paste_me);
+    TextView text_view = (TextView) findViewById(R.id.text_view);
 
-    TextView show_me = (TextView) findViewById(R.id.show_me);
+    switch (view.getId()) {
 
-    Intent intent = new Intent(this, DisplayTextActivity.class);
+        case R.id.go_away:
+            Intent intent = new Intent(this, DisplayTextActivity.class);
+            this.startActivity(intent);
+            break;
+        case R.id.clear_button:
+            text_view.setText("");
+            break;
+        case R.id.paste:
+            EditText edit_text = (EditText) findViewById(R.id.edit_text);
+            text_view.setText(edit_text.getText());
+            break;
+        case R.id.show_time:
+            this.show_time(view);
+            break;
 
-    intent.putExtra(EXTRA_MESSAGE, paste_me.getText());
 
-    this.startActivity(intent);
-
-
-
-    show_me.setText(paste_me.getText());
+    }
 }
 
-public void clear_it(View view) {
 
-    EditText paste_me = (EditText) findViewById(R.id.paste_me);
-    TextView show_me = (TextView) findViewById(R.id.show_me);
-
-    show_me.setText("");
-}
 
 public void show_time(View view) {
 
@@ -64,11 +65,9 @@ public void show_time(View view) {
 
     String result = hours + ':' + minutes + ':' + seconds;
 
-    //EditText place_text = (EditText) v;
+    TextView text_view = (TextView) findViewById(R.id.text_view);
 
-    TextView show_me = (TextView) findViewById(R.id.show_me);
-
-    show_me.setText(result);
+    text_view.setText(result);
 
 }
 
