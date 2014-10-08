@@ -17,6 +17,7 @@
     <string name="paste">Paste</string>
     <string name="text_view">text view</string>
     <string name="edit_text">edit text</string>
+    <string name="action_custom">Custom</string>
 
 
 </resources>

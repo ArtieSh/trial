@@ -82,6 +82,7 @@
     <eat-comment />
 
     <color name="background_color">#9b95e0</color>
+    <color name="display_background_color">#79db79</color>
     <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
@@ -551,6 +552,7 @@
     <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
+    <string name="action_custom">Custom</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Trial</string>
     <string name="clear_button">clear</string>

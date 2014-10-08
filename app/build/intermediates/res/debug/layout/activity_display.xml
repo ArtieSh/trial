@@ -3,21 +3,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-
-              android:layout_height="wrap_content">
+              android:background="@color/display_background_color"
+              android:layout_height="match_parent">
 
     <TextView
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:textSize="50dp"
             android:text="@string/second_activity"
             android:paddingBottom="100dp"
+            android:id="@+id/display_screen"
             />
 
     <Button
             android:id="@+id/go_back"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
             android:layout_width="match_parent"
             android:text="@string/go_back"
             android:onClick="go_back"

@@ -22,7 +22,11 @@ public class DisplayTextActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.activity_display);
-        //show_time();
+        
+        Intent intent = this.getIntent();
+        TextView display_screen = (TextView) findViewById(R.id.display_screen);
+        display_screen.setText(intent.getStringExtra(MainActivity.EXTRA_MESSAGE));
+
     }
 
     public void go_back(View view) {

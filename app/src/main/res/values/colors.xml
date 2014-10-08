@@ -2,4 +2,5 @@
 <resources>
 
     <color name="background_color">#9b95e0</color>
+    <color name="display_background_color">#79db79</color>
 </resources>

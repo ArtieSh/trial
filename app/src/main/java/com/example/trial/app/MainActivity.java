@@ -18,7 +18,7 @@ public class MainActivity extends ActionBarActivity {
     //TextView text_view = (TextView) findViewById(R.id.text_view);
     //public Intent intent = new Intent(this, DisplayTextActivity.class);
 
-    public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.trial.app.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,18 +31,20 @@ public class MainActivity extends ActionBarActivity {
 public void onClick(View view) {
 
     TextView text_view = (TextView) findViewById(R.id.text_view);
+    EditText edit_text = (EditText) findViewById(R.id.edit_text);
 
     switch (view.getId()) {
 
         case R.id.go_away:
+            String extra_message = edit_text.getText().toString();
             Intent intent = new Intent(this, DisplayTextActivity.class);
+            intent.putExtra(EXTRA_MESSAGE, extra_message);
             this.startActivity(intent);
             break;
         case R.id.clear_button:
             text_view.setText("");
             break;
         case R.id.paste:
-            EditText edit_text = (EditText) findViewById(R.id.edit_text);
             text_view.setText(edit_text.getText());
             break;
         case R.id.show_time:
