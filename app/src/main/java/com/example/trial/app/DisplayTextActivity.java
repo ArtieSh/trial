@@ -26,7 +26,31 @@ public class DisplayTextActivity extends ActionBarActivity {
         Intent intent = this.getIntent();
         TextView display_screen = (TextView) findViewById(R.id.display_screen);
         display_screen.setText(intent.getStringExtra(MainActivity.EXTRA_MESSAGE));
+        //display_screen.setText(findViewById(R.id.aatemmaa).getVisibility());
 
+    }
+
+    public void onClick(View view) {
+
+        //TextView display_screen = (TextView) findViewById(R.id.display_screen);
+        //display_screen.setText(findViewById(R.id.aatemmaa).getVisibility());
+
+        switch (view.getId()) {
+
+            case R.id.aatemmaa:
+                if (view.getVisibility() == View.VISIBLE) {
+                    view.setVisibility(View.INVISIBLE);
+                }
+                else {
+                    view.setVisibility(View.VISIBLE);
+                }
+                break;
+
+            case R.id.go_back:
+                Intent intent = new Intent(this, MainActivity.class);
+                this.startActivity(intent);
+                break;
+        }
     }
 
     public void go_back(View view) {
