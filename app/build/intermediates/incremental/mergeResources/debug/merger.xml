@@ -8309,6 +8309,8 @@ false
                 </string>
                 <string name="push_me" >Push me
                 </string>
+                <string name="invisible" >invisible
+                </string>
                 <string name="action_settings" >Settings
                 </string>
                 <string name="app_name" >Trial
@@ -8332,6 +8334,8 @@ false
                 <string name="action_custom" >Custom
                 </string>
                 <string name="second_name" >Second
+                </string>
+                <string name="visible" >visible
                 </string>
                 <string name="clear_button" >clear
                 </string>
@@ -8363,7 +8367,11 @@ false
             <file
                 path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/colors.xml"
                 qualifiers="" >
+                <color name="invisible_color" >#e1a9af
+                </color>
                 <color name="background_color" >#9b95e0
+                </color>
+                <color name="visible_color" >#daef50
                 </color>
                 <color name="display_background_color" >#79db79
                 </color>

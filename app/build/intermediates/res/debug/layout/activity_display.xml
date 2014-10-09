@@ -11,7 +11,6 @@
             android:layout_height="wrap_content"
             android:src="@drawable/aatemmaa"
             android:layout_gravity="center"
-            android:onClick="onClick"
             android:id="@+id/aatemmaa"
             android:padding="20dp"
             />
@@ -23,9 +22,8 @@
             android:text="@string/second_activity"
             android:paddingBottom="100dp"
             android:id="@+id/display_screen"
+            android:gravity="center_horizontal"
             />
-
-
 
     <Button
             android:id="@+id/go_back"
@@ -34,6 +32,16 @@
 
             android:layout_width="match_parent"
             android:text="@string/go_back"
+            android:onClick="onClick"
+            />
+
+    <Button
+            android:id="@+id/switch_button"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_width="match_parent"
+            android:text="@string/visible"
             android:onClick="onClick"
             />
 

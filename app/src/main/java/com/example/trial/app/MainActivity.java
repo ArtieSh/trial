@@ -24,7 +24,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.activity_main);
-
+        //this.getIntent();
+        this.display_visibility_state();
     }
 
 
@@ -56,20 +57,35 @@ public void onClick(View view) {
 }
 
 
+    public void display_visibility_state() {
 
-public void show_time(View view) {
+        Intent intent = this.getIntent();
 
-    Date time = new Date();
+        if (intent.getStringExtra(DisplayTextActivity.VISIBILITY_STATE) != null) {
 
-    String hours = ((Integer) time.getHours()).toString();
-    String minutes = ((Integer) time.getMinutes()).toString();
-    String seconds = ((Integer) time.getSeconds()).toString();
 
-    String result = hours + ':' + minutes + ':' + seconds;
+            TextView display_screen = (TextView) findViewById(R.id.text_view);
 
-    TextView text_view = (TextView) findViewById(R.id.text_view);
+            //String visibility = intent.getStringExtra(DisplayTextActivity.VISIBILITY_STATE);
 
-    text_view.setText(result);
+            display_screen.setText(intent.getStringExtra(DisplayTextActivity.VISIBILITY_STATE));
+        }
+
+    }
+
+        public void show_time(View view) {
+
+        Date time = new Date();
+
+        String hours = ((Integer) time.getHours()).toString();
+        String minutes = ((Integer) time.getMinutes()).toString();
+        String seconds = ((Integer) time.getSeconds()).toString();
+
+        String result = hours + ':' + minutes + ':' + seconds;
+
+        TextView text_view = (TextView) findViewById(R.id.text_view);
+
+        text_view.setText(result);
 
 }
 

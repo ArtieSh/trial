@@ -18,6 +18,8 @@
     <string name="text_view">text view</string>
     <string name="edit_text">edit text</string>
     <string name="action_custom">Custom</string>
+    <string name="visible">visible</string>
+    <string name="invisible">invisible</string>
 
 
 </resources>

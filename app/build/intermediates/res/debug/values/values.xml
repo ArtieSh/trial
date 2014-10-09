@@ -83,6 +83,8 @@
 
     <color name="background_color">#9b95e0</color>
     <color name="display_background_color">#79db79</color>
+    <color name="invisible_color">#e1a9af</color>
+    <color name="visible_color">#daef50</color>
     <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
@@ -561,12 +563,14 @@
     <string name="go_away">Go Away</string>
     <string name="go_back">go back</string>
     <string name="hello_world">Hello world!</string>
+    <string name="invisible">invisible</string>
     <string name="paste">Paste</string>
     <string name="push_me">Push me</string>
     <string name="second_activity">Second Activity</string>
     <string name="second_name">Second</string>
     <string name="show_time">show time</string>
     <string name="text_view">text view</string>
+    <string name="visible">visible</string>
     <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
