@@ -54,13 +54,13 @@
             >
 
 
-        <ImageButton
+        <Button
                 android:layout_width="@dimen/square_side"
                 android:layout_height="@dimen/square_side"
                 android:id="@+id/imageButton11"
                 android:background="@color/white"
                 android:layout_margin="@dimen/square_margin"
-                android:onClick="switch_visibility"
+                android:onClick="change_color"
                 />
 
         <ImageButton
@@ -69,7 +69,8 @@
                 android:id="@+id/imageButton12"
                 android:background="@color/white"
                 android:layout_margin="@dimen/square_margin"
-                android:onClick="switch_visibility"
+                android:onClick="change_color"
+                android:alpha="100"
                 />
 
         <ImageButton
@@ -78,7 +79,7 @@
                 android:id="@+id/imageButton13"
                 android:background="@color/white"
                 android:layout_margin="@dimen/square_margin"
-                android:onClick="switch_visibility"
+                android:onClick="change_color"
                 />
 
         <ImageButton
@@ -87,7 +88,7 @@
                 android:id="@+id/imageButton14"
                 android:background="@color/white"
                 android:layout_margin="@dimen/square_margin"
-                android:onClick="switch_visibility"
+                android:onClick="change_color"
                 />
 
     </LinearLayout>
@@ -187,7 +188,7 @@
             >
 
 
-        <ImageButton
+        <Button
                 android:layout_width="@dimen/square_side"
                 android:layout_height="@dimen/square_side"
                 android:id="@+id/imageButton41"
@@ -195,7 +196,7 @@
                 android:layout_margin="@dimen/square_margin"
                 />
 
-        <ImageButton
+        <Button
                 android:layout_width="@dimen/square_side"
                 android:layout_height="@dimen/square_side"
                 android:id="@+id/imageButton42"
@@ -203,7 +204,7 @@
                 android:layout_margin="@dimen/square_margin"
                 />
 
-        <ImageButton
+        <Button
                 android:layout_width="@dimen/square_side"
                 android:layout_height="@dimen/square_side"
                 android:id="@+id/imageButton43"
@@ -211,7 +212,7 @@
                 android:layout_margin="@dimen/square_margin"
                 />
 
-        <ImageButton
+        <Button
                 android:layout_width="@dimen/square_side"
                 android:layout_height="@dimen/square_side"
                 android:id="@+id/imageButton44"

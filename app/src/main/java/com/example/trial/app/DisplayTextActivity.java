@@ -58,7 +58,7 @@ public class DisplayTextActivity extends ActionBarActivity {
         }
     }
 
-    public boolean change_color(View view) {
+    public void change_color(View view) {
 
        ColorDrawable bg_color =  (ColorDrawable) view.getBackground();
 
@@ -66,15 +66,17 @@ public class DisplayTextActivity extends ActionBarActivity {
 
            bg_color.setColor(R.color.black);
 
-           view.setBackground(bg_color);
+          // view.setBackgroundColor(R.color.black);
+           view.setBackgroundColor(this.getResources().getColor(R.color.black));
 
-           return true;
        } else {
 
            bg_color.setColor(R.color.white);
 
+           //view.setBackgroundColor(this.getResources().getColor(R.color.white));
+
            view.setBackground(bg_color);
-           return false;
+
        }
     }
 
