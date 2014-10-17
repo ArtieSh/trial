@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context="com.example.trial.app.MainActivity">
+
+    <TextView
+            android:id="@+id/text_view"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/text_view"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            />
+
+    <EditText
+            android:id="@+id/edit_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:hint="@string/edit_text"
+            />
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+
+    <Button
+            android:id="@+id/paste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paste"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+
+    <Button
+            android:id="@+id/go_away"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/go_away"
+            android:onClick="onClick"
+            android:clickable="true"
+            />
+
+
+    <Button
+            android:id="@+id/clear_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/clear_button"
+            android:onClick="onClick"
+            android:clickable="true"
+            />
+
+    <Button
+            android:id="@+id/show_time"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/show_time"
+            android:onClick="onClick"
+            android:clickable="true"
+                />
+
+   </LinearLayout>
+
+
+
+</LinearLayout>

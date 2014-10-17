@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/artie-sh/IdeaProjects/Trial/app/build/intermediates/pre-dexed/debug/classes-524c5c8098f51b38eedb5887aa3e251deaa38f0d.jar"
+        jar="/home/artie-sh/IdeaProjects/Trial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/home/artie-sh/IdeaProjects/Trial/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-5ab5bbb3844d6c72109d7acdf4c48c80a5c728cc.jar"
+        jar="/opt/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>
