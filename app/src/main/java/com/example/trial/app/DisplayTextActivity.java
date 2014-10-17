@@ -69,8 +69,8 @@ public class DisplayTextActivity extends ActionBarActivity {
         int width_new = (int) Math.round(Math.random() * width);
         int height_new = (int) Math.round(Math.random() * height);
 
-        imageView.setX(width_new);
-        imageView.setY(height_new);
+       // imageView.setX(width_new);
+        //imageView.setY(height_new);
 
     }
 

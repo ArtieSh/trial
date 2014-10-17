@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item>
+        <bitmap
+                android:src="@drawable/aatemmaa"
+                android:gravity="center"
+
+                />
+    </item>
+
+    <item>
+        <bitmap
+                android:src="@drawable/humm"
+                android:gravity="center"
+
+                android:top="20dp"
+                android:left="20dp"
+                />
+    </item>
+
+    </layer-list>
+

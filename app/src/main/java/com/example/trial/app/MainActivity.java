@@ -26,6 +26,7 @@ public class MainActivity extends ActionBarActivity {
         this.setContentView(R.layout.activity_main);
         //this.getIntent();
         this.display_visibility_state();
+
     }
 
 
@@ -37,7 +38,7 @@ public void onClick(View view) {
     switch (view.getId()) {
 
         case R.id.go_away:
-            String extra_message = edit_text.getText().toString();
+            String extra_message = text_view.getText().toString();
             Intent intent = new Intent(this, DisplayTextActivity.class);
             intent.putExtra(EXTRA_MESSAGE, extra_message);
             this.startActivity(intent);
@@ -92,8 +93,8 @@ public void onClick(View view) {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+        this.getMenuInflater().inflate(R.menu.main, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override

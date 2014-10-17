@@ -8287,10 +8287,42 @@ false
                 qualifiers=""
                 type="menu" />
             <file
+                name="selector"
+                path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/drawable-hdpi/selector.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
+            <file
+                name="humm"
+                path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/drawable-hdpi/humm.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="layers"
+                path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/drawable-hdpi/layers.xml"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="aatemmaa"
+                path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/drawable-hdpi/aatemmaa.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="invisible_color" >#e1a9af
+                </color>
+                <color name="background_color" >#9b95e0
+                </color>
+                <color name="visible_color" >#daef50
+                </color>
+                <color name="display_background_color" >#79db79
+                </color>
+            </file>
             <file
                 path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/styles.xml"
                 qualifiers="" >
@@ -8364,23 +8396,6 @@ false
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
-            <file
-                path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/colors.xml"
-                qualifiers="" >
-                <color name="invisible_color" >#e1a9af
-                </color>
-                <color name="background_color" >#9b95e0
-                </color>
-                <color name="visible_color" >#daef50
-                </color>
-                <color name="display_background_color" >#79db79
-                </color>
-            </file>
-            <file
-                name="aatemmaa"
-                path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/drawable-hdpi/aatemmaa.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
         </source>
         <source path="/home/artie-sh/IdeaProjects/Trial/app/build/generated/res/rs/debug" />
         <source path="/home/artie-sh/IdeaProjects/Trial/app/build/generated/res/generated/debug" />
