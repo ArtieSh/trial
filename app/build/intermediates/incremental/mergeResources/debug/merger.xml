@@ -8322,6 +8322,10 @@ false
                 </color>
                 <color name="display_background_color" >#79db79
                 </color>
+                <color name="white" >#ffffff
+                </color>
+                <color name="black" >#000000
+                </color>
             </file>
             <file
                 path="/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/styles.xml"
@@ -8378,6 +8382,10 @@ false
                 <dimen name="activity_vertical_margin" >16dp
                 </dimen>
                 <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="square_side" >100dp
+                </dimen>
+                <dimen name="square_margin" >10dp
                 </dimen>
             </file>
             <file

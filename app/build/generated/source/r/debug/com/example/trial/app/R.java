@@ -809,14 +809,16 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f050005;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f060007;
+        public static final int abc_search_url_text_holo=0x7f060009;
         public static final int abc_search_url_text_normal=0x7f060000;
         public static final int abc_search_url_text_pressed=0x7f060001;
         public static final int abc_search_url_text_selected=0x7f060002;
         public static final int background_color=0x7f060003;
-        public static final int display_background_color=0x7f060004;
-        public static final int invisible_color=0x7f060005;
-        public static final int visible_color=0x7f060006;
+        public static final int black=0x7f060004;
+        public static final int display_background_color=0x7f060005;
+        public static final int invisible_color=0x7f060006;
+        public static final int visible_color=0x7f060007;
+        public static final int white=0x7f060008;
     }
     public static final class dimen {
         public static final int abc_action_bar_default_height=0x7f080000;
@@ -842,6 +844,8 @@ containing a value of this type.
         public static final int dialog_fixed_height_minor=0x7f080014;
         public static final int dialog_fixed_width_major=0x7f080015;
         public static final int dialog_fixed_width_minor=0x7f080016;
+        public static final int square_margin=0x7f080017;
+        public static final int square_side=0x7f080018;
     }
     public static final class drawable {
         public static final int aatemmaa=0x7f020000;
@@ -947,16 +951,16 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f070023;
         public static final int action_bar_title=0x7f070022;
         public static final int action_context_bar=0x7f07001d;
-        public static final int action_custom=0x7f070047;
+        public static final int action_custom=0x7f070057;
         public static final int action_menu_divider=0x7f070015;
         public static final int action_menu_presenter=0x7f070016;
         public static final int action_mode_close_button=0x7f070024;
-        public static final int action_settings=0x7f070046;
+        public static final int action_settings=0x7f070056;
         public static final int activity_chooser_view_content=0x7f070025;
         public static final int always=0x7f07000f;
         public static final int beginning=0x7f07000a;
         public static final int checkbox=0x7f07002d;
-        public static final int clear_button=0x7f070044;
+        public static final int clear_button=0x7f070054;
         public static final int collapseActionView=0x7f070011;
         public static final int default_activity_button=0x7f070028;
         public static final int dialog=0x7f070012;
@@ -964,24 +968,40 @@ containing a value of this type.
         public static final int display_screen=0x7f07003d;
         public static final int dropdown=0x7f070013;
         public static final int edit_query=0x7f070030;
-        public static final int edit_text=0x7f070041;
+        public static final int edit_text=0x7f070051;
         public static final int end=0x7f07000c;
         public static final int expand_activities_button=0x7f070026;
         public static final int expanded_menu=0x7f07002c;
-        public static final int go_away=0x7f070043;
+        public static final int go_away=0x7f070053;
         public static final int go_back=0x7f07003e;
         public static final int home=0x7f070017;
         public static final int homeAsUp=0x7f070005;
         public static final int icon=0x7f07002a;
         public static final int ifRoom=0x7f07000e;
         public static final int image=0x7f070027;
+        public static final int imageButton11=0x7f070040;
+        public static final int imageButton12=0x7f070041;
+        public static final int imageButton13=0x7f070042;
+        public static final int imageButton14=0x7f070043;
+        public static final int imageButton21=0x7f070044;
+        public static final int imageButton22=0x7f070045;
+        public static final int imageButton23=0x7f070046;
+        public static final int imageButton24=0x7f070047;
+        public static final int imageButton31=0x7f070048;
+        public static final int imageButton32=0x7f070049;
+        public static final int imageButton33=0x7f07004a;
+        public static final int imageButton34=0x7f07004b;
+        public static final int imageButton41=0x7f07004c;
+        public static final int imageButton42=0x7f07004d;
+        public static final int imageButton43=0x7f07004e;
+        public static final int imageButton44=0x7f07004f;
         public static final int listMode=0x7f070001;
         public static final int list_item=0x7f070029;
         public static final int middle=0x7f07000b;
         public static final int never=0x7f07000d;
         public static final int none=0x7f070009;
         public static final int normal=0x7f070000;
-        public static final int paste=0x7f070042;
+        public static final int paste=0x7f070052;
         public static final int progress_circular=0x7f070018;
         public static final int progress_horizontal=0x7f070019;
         public static final int radio=0x7f07002f;
@@ -999,12 +1019,12 @@ containing a value of this type.
         public static final int showCustom=0x7f070007;
         public static final int showHome=0x7f070004;
         public static final int showTitle=0x7f070006;
-        public static final int show_time=0x7f070045;
+        public static final int show_time=0x7f070055;
         public static final int split_action_bar=0x7f07001e;
         public static final int submit_area=0x7f070039;
         public static final int switch_button=0x7f07003f;
         public static final int tabMode=0x7f070002;
-        public static final int text_view=0x7f070040;
+        public static final int text_view=0x7f070050;
         public static final int title=0x7f07002b;
         public static final int top_action_bar=0x7f070020;
         public static final int up=0x7f070021;

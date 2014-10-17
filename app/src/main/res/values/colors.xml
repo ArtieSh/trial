@@ -5,4 +5,6 @@
     <color name="display_background_color">#79db79</color>
     <color name="visible_color">#daef50</color>
     <color name="invisible_color">#e1a9af</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
 </resources>
