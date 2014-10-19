@@ -11,69 +11,46 @@
     android:background="@color/background_color"
     tools:context="com.example.trial.app.MainActivity">
 
-    <TextView
-            android:id="@+id/text_view"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="@string/text_view"
-            android:textAlignment="center"
-            android:layout_weight="1"
-            android:textSize="40dp"
-            />
-
-    <EditText
-            android:id="@+id/edit_text"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_weight="4"
-            android:hint="@string/edit_text"
-            />
-
     <LinearLayout
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
 
-    <Button
-            android:id="@+id/paste"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/paste"
-            android:clickable="true"
-            android:onClick="onClick"
-            />
-
-    <Button
-            android:id="@+id/go_away"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/go_away"
-            android:onClick="onClick"
-            android:clickable="true"
-            />
-
-
-    <Button
-            android:id="@+id/clear_button"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/clear_button"
-            android:onClick="onClick"
-            android:clickable="true"
-            />
-
-    <Button
-            android:id="@+id/show_time"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/show_time"
-            android:onClick="onClick"
-            android:clickable="true"
+        <Button
+                android:id="@+id/start_first"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/start_first"
+                android:layout_weight="1"
+                android:onClick="onClick"
                 />
 
-   </LinearLayout>
+        <Button
+                android:id="@+id/start_second"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/start_second"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                />
 
+        <Button
+                android:id="@+id/start_third"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/start_third"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                />
 
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
 
 </LinearLayout>

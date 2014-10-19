@@ -1,6 +1,8 @@
 package com.example.trial.app;
 
 import android.content.Intent;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,7 +14,7 @@ import android.widget.TextView;
 import java.util.Date;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends FragmentActivity {
 
     //public EditText edit_text = (EditText) findViewById(R.id.edit_text);
     //TextView text_view = (TextView) findViewById(R.id.text_view);
@@ -32,31 +34,32 @@ public class MainActivity extends ActionBarActivity {
 
 public void onClick(View view) {
 
-    TextView text_view = (TextView) findViewById(R.id.text_view);
-    EditText edit_text = (EditText) findViewById(R.id.edit_text);
+//    TextView text_view = (TextView) findViewById(R.id.text_view);
+  //  EditText edit_text = (EditText) findViewById(R.id.edit_text);
 
     switch (view.getId()) {
 
-        case R.id.go_away:
-            String extra_message = text_view.getText().toString();
-            Intent intent = new Intent(this, DisplayTextActivity.class);
-            intent.putExtra(EXTRA_MESSAGE, extra_message);
-            this.startActivity(intent);
-            break;
-        case R.id.clear_button:
-            text_view.setText("");
-            break;
-        case R.id.paste:
-            text_view.setText(edit_text.getText());
-            break;
-        case R.id.show_time:
-            this.show_time(view);
-            break;
+        case R.id.start_first:
 
+            this.startFirstFragment();
+            break;
+        case R.id.start_second:
 
+            break;
+        case R.id.start_third:
+
+            break;
     }
 }
 
+    public void startFirstFragment() {
+
+        Fragment firstFragment = new Fragment();
+        Intent intent = new Intent(this, First_Fragment.class);
+
+        firstFragment.startActivity(intent);
+
+        //this.getSupportFragmentManager().beginTransaction().add    }
 
     public void display_visibility_state() {
 
