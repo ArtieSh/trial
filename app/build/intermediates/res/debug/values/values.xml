@@ -82,9 +82,11 @@
     <eat-comment />
 
     <color name="background_color">#9b95e0</color>
+    <color name="black">#000000</color>
     <color name="display_background_color">#79db79</color>
     <color name="invisible_color">#e1a9af</color>
     <color name="visible_color">#daef50</color>
+    <color name="white">#ffffff</color>
     <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
@@ -529,6 +531,14 @@
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
+    <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="square_margin">10dp</dimen>
+    <dimen name="square_side">100dp</dimen>
+    <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment />
+
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>

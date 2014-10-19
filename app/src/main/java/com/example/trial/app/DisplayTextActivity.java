@@ -1,7 +1,10 @@
 package com.example.trial.app;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Point;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Display;
@@ -53,6 +56,28 @@ public class DisplayTextActivity extends ActionBarActivity {
                 this.move_around();
                 break;
         }
+    }
+
+    public void change_color(View view) {
+
+       ColorDrawable bg_color =  (ColorDrawable) view.getBackground();
+
+       if (bg_color.getColor() == R.color.white) {
+
+           bg_color.setColor(R.color.black);
+
+          // view.setBackgroundColor(R.color.black);
+           view.setBackgroundColor(this.getResources().getColor(R.color.black));
+
+       } else {
+
+           bg_color.setColor(R.color.white);
+
+           //view.setBackgroundColor(this.getResources().getColor(R.color.white));
+
+           view.setBackground(bg_color);
+
+       }
     }
 
     public void move_around() {

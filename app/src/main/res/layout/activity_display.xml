@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:textSize="50dp"
             android:text="@string/second_activity"
-            android:paddingBottom="100dp"
+            android:paddingBottom="10dp"
             android:id="@+id/display_screen"
             android:gravity="center_horizontal"
             />
@@ -45,4 +45,184 @@
             android:onClick="onClick"
             />
 
-</LinearLayout>
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            >
+
+
+        <Button
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton11"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                android:onClick="change_color"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton12"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                android:onClick="change_color"
+                android:alpha="100"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton13"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                android:onClick="change_color"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton14"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                android:onClick="change_color"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            >
+
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton21"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton22"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton23"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton24"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            >
+
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton31"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton32"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton33"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <ImageButton
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton34"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            >
+
+
+        <Button
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton41"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <Button
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton42"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <Button
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton43"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+        <Button
+                android:layout_width="@dimen/square_side"
+                android:layout_height="@dimen/square_side"
+                android:id="@+id/imageButton44"
+                android:background="@color/white"
+                android:layout_margin="@dimen/square_margin"
+                />
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
