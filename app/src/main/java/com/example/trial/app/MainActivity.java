@@ -20,14 +20,13 @@ public class MainActivity extends FragmentActivity {
     //TextView text_view = (TextView) findViewById(R.id.text_view);
     //public Intent intent = new Intent(this, DisplayTextActivity.class);
 
-    public static final String EXTRA_MESSAGE = "com.example.trial.app.MESSAGE";
+    //public static final String EXTRA_MESSAGE = "com.example.trial.app.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.activity_main);
-        //this.getIntent();
-        this.display_visibility_state();
+
 
     }
 
@@ -59,39 +58,9 @@ public void onClick(View view) {
 
         firstFragment.startActivity(intent);
 
-        //this.getSupportFragmentManager().beginTransaction().add    }
-
-    public void display_visibility_state() {
-
-        Intent intent = this.getIntent();
-
-        if (intent.getStringExtra(DisplayTextActivity.VISIBILITY_STATE) != null) {
-
-
-            TextView display_screen = (TextView) findViewById(R.id.text_view);
-
-            //String visibility = intent.getStringExtra(DisplayTextActivity.VISIBILITY_STATE);
-
-            display_screen.setText(intent.getStringExtra(DisplayTextActivity.VISIBILITY_STATE));
-        }
-
+        //this.getSupportFragmentManager().beginTransaction().add
     }
 
-        public void show_time(View view) {
-
-        Date time = new Date();
-
-        String hours = ((Integer) time.getHours()).toString();
-        String minutes = ((Integer) time.getMinutes()).toString();
-        String seconds = ((Integer) time.getSeconds()).toString();
-
-        String result = hours + ':' + minutes + ':' + seconds;
-
-        TextView text_view = (TextView) findViewById(R.id.text_view);
-
-        text_view.setText(result);
-
-}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -19,11 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    <activity
-            android:name="com.example.trial.app.DisplayTextActivity"
-            android:label="@string/second_activity"
-            android:icon="@drawable/humm">
-    </activity>
     </application>
 
 </manifest>
