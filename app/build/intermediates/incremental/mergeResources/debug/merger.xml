@@ -8367,7 +8367,9 @@ false
                 </string>
                 <string name="visible" >visible
                 </string>
-                <string name="start_first" >Start 1st fragment
+                <string
+                    name="start_first"
+                    font_size="44" >Start 1st fragment
                 </string>
             </file>
             <file

@@ -574,7 +574,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="second_activity">second activity</string>
     <string name="second_name">Second</string>
-    <string name="start_first">Start 1st fragment</string>
+    <string name="start_first" font_size="44">Start 1st fragment</string>
     <string name="start_second">Start 2nd fragment</string>
     <string name="start_third">Start 3rd fragment</string>
     <string name="visible">visible</string>

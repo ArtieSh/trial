@@ -1,8 +1,11 @@
 package com.example.trial.app;
 
+import android.app.FragmentManager;
+//import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,6 +14,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.io.FileDescriptor;
+import java.io.PrintWriter;
 import java.util.Date;
 
 
@@ -40,6 +45,8 @@ public void onClick(View view) {
 
         case R.id.start_first:
 
+
+
             this.startFirstFragment();
             break;
         case R.id.start_second:
@@ -53,10 +60,15 @@ public void onClick(View view) {
 
     public void startFirstFragment() {
 
-        Fragment firstFragment = new Fragment();
-        Intent intent = new Intent(this, First_Fragment.class);
+        FragmentTransaction fragmentTransaction = this.getSupportFragmentManager().beginTransaction();
 
-        firstFragment.startActivity(intent);
+        First_Fragment fragment = new First_Fragment();
+
+        fragmentTransaction.add(R.id.fragment_container, fragment);
+
+        fragmentTransaction.commit();
+
+        //firstFragment.startActivity(intent);
 
         //this.getSupportFragmentManager().beginTransaction().add
     }
