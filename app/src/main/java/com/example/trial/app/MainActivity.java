@@ -44,13 +44,10 @@ public void onClick(View view) {
     switch (view.getId()) {
 
         case R.id.start_first:
-
-
-
             this.startFirstFragment();
             break;
         case R.id.start_second:
-
+            this.startSecondFragment();
             break;
         case R.id.start_third:
 
@@ -67,10 +64,17 @@ public void onClick(View view) {
         fragmentTransaction.add(R.id.fragment_container, fragment);
 
         fragmentTransaction.commit();
+    }
 
-        //firstFragment.startActivity(intent);
+    public void startSecondFragment() {
 
-        //this.getSupportFragmentManager().beginTransaction().add
+        FragmentTransaction fragmentTransaction = this.getSupportFragmentManager().beginTransaction();
+
+        Second_Fragment fragment = new Second_Fragment();
+
+        fragmentTransaction.add(R.id.fragment_container, fragment);
+
+        fragmentTransaction.commit();
     }
 
 

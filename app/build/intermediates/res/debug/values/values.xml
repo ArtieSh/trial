@@ -537,8 +537,11 @@
     <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
+    <dimen name="fragments_text_size">50dp</dimen>
     <dimen name="square_margin">10dp</dimen>
     <dimen name="square_side">100dp</dimen>
+    <dimen name="text_margin_top">50dp</dimen>
+    <dimen name="text_padding">20dp</dimen>
     <!-- From: file:/home/artie-sh/IdeaProjects/Trial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
@@ -573,6 +576,7 @@
     <string name="go_back">go back</string>
     <string name="hello_world">Hello world!</string>
     <string name="second_activity">second activity</string>
+    <string name="second_fragment">second fragment</string>
     <string name="second_name">Second</string>
     <string name="start_first" font_size="44">Start 1st fragment</string>
     <string name="start_second">Start 2nd fragment</string>

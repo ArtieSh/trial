@@ -4,4 +4,11 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="square_side">100dp</dimen>
     <dimen name="square_margin">10dp</dimen>
+
+    <dimen name="text_padding">20dp</dimen>
+    <dimen name="text_margin_top">50dp</dimen>
+
+    <dimen name="fragments_text_size">50dp</dimen>
+
+
 </resources>
